@@ -86,4 +86,5 @@ while True:
         data_to_send = 0
     
     utime.sleep(1.2)  # Wait for 1.2 seconds before sending the next data
-        #To make the different tests we var
+        #To make the different tests change step by step to 0.1s to see UDP performance against TCP limitations
+        # and further on to test UDP limitations.
